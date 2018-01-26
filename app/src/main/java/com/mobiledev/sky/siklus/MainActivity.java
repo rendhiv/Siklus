@@ -42,7 +42,6 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
     }
-    @Override
     public boolean onCreateOptionMenu(Menu menu) {
         getMenuInflater().inflate(R.menu.main, menu);
         return true;
